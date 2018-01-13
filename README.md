@@ -12,3 +12,7 @@ Dependinte:
 	Mysql:
 		- creare db joc
 		- import ./db/dbJoc.sql
+
+Pentru a testa tema accesati
+
+	http://54.154.11.59
