@@ -1,0 +1,52 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="ie=edge")
+    title Bunny and Turtle Race 
+    link(rel="stylesheet" href="style.css")
+    script.
+      player1="#{player1}";
+      player2="#{player2}";
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(type="text/javascript" src="base.js")
+
+  body(style="margin-top:5%")
+    form(action='/')
+      input(type='submit', class="newGame"  value='New Game' style="margin-left:10px")
+    #scor(style="position: absolute")
+    .center(style="border: 3px solid black;")
+      div(style="display:inline-flex;width:100%")
+        .sidebar(style="background-color: #fdd7d7;width:20%;text-align:center")
+          #player1
+            h3 #{player1}
+          img(src="images/bigBunny.png")
+        div(style="background-color: pink;width:60%;")
+          table.center
+            tr
+              td.cell(i="0" j="0" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+              td.cell(i="0" j="1" style="width:125px; height:129px")
+                img(src="images/none.png")
+              td.cell(i="0" j="2" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+            tr
+              td.cell(i="1" j="0" style="width:125px; height:129px")
+                img(src="images/turtle.png")
+              td.cell(i="1" j="1" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+              td.cell(i="1" j="2" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+            tr
+              td.cell(i="2" j="0" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+              td.cell(i="2" j="1" style="width:125px; height:129px")
+                img(src="images/turtle.png")
+              td.cell(i="2" j="2" style="width:125px; height:129px")
+                img(src="images/bunny.png")
+        .sidebar(style="background-color: #fdd7d7;width:20%")
+          #player2
+            h3 #{player2}
+          img(src="images/bigTurtle.png")
+

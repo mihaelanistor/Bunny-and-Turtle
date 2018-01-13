@@ -1,0 +1,70 @@
+.list-item{
+    color: red;
+}
+
+.center {
+    width: 60%;
+    margin:0 auto;
+    position: relative;
+    /* height: 100%; */
+}
+.outerLink 
+{
+    background-color:black; 
+    display:block; 
+    opacity:1;
+}
+
+img.darkableImage 
+{
+    opacity:1;
+}
+body{
+    margin: auto;
+    background-image: url("images/wallpaper1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    /* height: 59.2%; */
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+h1 {
+    text-align: center;    
+} 
+
+
+h3 {
+    text-align: center;    
+}
+
+
+.sidebar {
+    /* height: 59.2%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;   */
+    vertical-align: middle;
+}
+
+.newGame {
+    font-style: italic;
+    color: #711064;
+    background-color: deeppink;
+    font-weight: 900;
+    border: aliceblue;
+    font-family: -webkit-pictograph;
+    font-size: large;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+
+#scor {
+    margin-left: 10px;
+    font-size: larger;
+    font-family: -webkit-pictograph;
+    font-style: italic;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super jocul mega anului!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- <div style="background-color: blue">
+        <h1>Super jocul mega anului!</h1>
+    </div> -->
+    <div class="center" style="border: 3px solid black;height:auto; margin-top:10%">
+
+        <div style="display:inline-flex;width:100%">
+            <div class="sidebar" style="background-color: #fdd7d7;width:20%;">
+                <div id="player1">
+                    <h1>Player 1</h1>
+                </div>
+                <img src="images/bigBunny.png">
+            </div>
+            <div style="background-color: pink;width:60%; display:none">
+                <table class="center">
+                    <tr>
+                        <td class="cell" i=0 j=0 style="width:125px; height:129px">
+                            <img src="images/bunny.png">
+                        </td>
+                        <td class="cell" i=0 j=1 style="width:125px; height:129px">
+                            <img src="images/none.png">
+                        </td>
+                        <td class="cell" i=0 j=2 style="width:125px; height:129px">
+                            <img src="images/bunny.png">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="cell" i=1 j=0 style="width:125px; height:129px">
+                            <img src="images/turtle.png">
+                        </td>
+                        <td class="cell" i=1 j=1 style="width:125px; height:129px">
+
+                            <img src="images/bunny.png">
+                        </td>
+                        <td class="cell" i=1 j=2 style="width:125px; height:129px">
+
+                            <img src="images/bunny.png">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="cell" i=2 j=0 style="width:125px; height:129px">
+
+                            <img src="images/bunny.png">
+                        </td>
+                        <td class="cell" i=2 j=1 style="width:125px; height:129px">
+
+                            <img src="images/turtle.png">
+                        </td>
+                        <td class="cell" i=2 j=2 style="width:125px; height:129px">
+
+                            <img src="images/bunny.png">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div style="background-color: pink;width:60%;  text-align:center; padding-top:100px">
+
+                <form id="ajax-enter-game" method="post" action="/login">
+                    <b>Player1:</b>
+                    <input type="text" name="player1name" value="Bunny">
+		    <br>
+                    <b>Player2:</b>              
+                    <input type="text" name="player2name" value="Turtle">
+                    <br>
+                    <input class="newGame" type="submit" value="New Game">
+                </form>
+            </div>
+            <div class="sidebar" style="background-color: #fdd7d7;width:20%">
+                <div id="player2">
+                    <h3>Player 2</h3>
+                </div>
+                <img src="images/bigTurtle.png">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
