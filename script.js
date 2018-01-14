@@ -59,7 +59,7 @@ function getPlayerScores () {
 			database: "joc"
 	});
 
-	var sql = 'SELECT * FROM player_scors LIMIT 10';
+	var sql = 'SELECT * FROM player_scors ORDER BY scor DESC LIMIT 10';
 	var result = con.query(sql);
 
 	return result;
